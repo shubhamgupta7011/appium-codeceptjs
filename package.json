@@ -1,0 +1,27 @@
+{
+  "name": "codecept-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codecept.conf.js",
+  "scripts": {
+    "test:smoke": "node_modules/.bin/codeceptjs run --verbose --grep \\\\\\\"@smoke\\\\\\\" --plugins allure --config=./codecept.conf.js",
+    "test:e2e": "node_modules/.bin/codeceptjs run --verbose --plugins allure --config=./codecept.conf.js --steps",
+    "test:report": "node_modules/.bin/allure serve ./output",
+    "test:report-gen": "node_modules/.bin/allure generate ./output"
+  },
+  "devDependencies": {
+    "@wdio/selenium-standalone-service": "^5.12.1",
+    "allure-commandline": "^2.9.0",
+    "codeceptjs": "^2.3.0",
+    "cucumber": "^6.0.5"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.9.0",
+    "chai": "latest",
+    "exceljs": "^3.1.0",
+    "moment": "latest",
+    "randomstring": "latest"
+  },
+  "author": "Shubham Gupta",
+  "license": "ISC"
+}

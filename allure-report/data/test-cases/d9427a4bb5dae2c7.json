@@ -1,0 +1,301 @@
+{
+  "uid" : "d9427a4bb5dae2c7",
+  "name" : "verify text enter alert @smoke",
+  "fullName" : "verify Catalog.verify text enter alert @smoke",
+  "historyId" : "3c6e014efa0b2fb6fe678a331d12152b",
+  "time" : {
+    "start" : 1624692524861,
+    "stop" : 1624692557043,
+    "duration" : 32182
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec",
+  "statusTrace" : "Error: element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec\n                    at /Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Browser.wrapCommandFn (/Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/@wdio/utils/build/shim.js:74:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec",
+    "statusTrace" : "Error: element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec\n                    at /Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Browser.wrapCommandFn (/Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/@wdio/utils/build/shim.js:74:23)",
+    "steps" : [ {
+      "name" : "Given user is on catalog list page ",
+      "time" : {
+        "start" : 1624692529564,
+        "stop" : 1624692532058,
+        "duration" : 2494
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: userOnCatalogPage ",
+        "time" : {
+          "start" : 1624692529564,
+          "stop" : 1624692532058,
+          "duration" : 2494
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"UIKitCatalog\"]\", 20",
+          "time" : {
+            "start" : 1624692529564,
+            "stop" : 1624692530833,
+            "duration" : 1269
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I see element \"//XCUIElementTypeStaticText[@name=\"UIKitCatalog\"]\"",
+          "time" : {
+            "start" : 1624692530833,
+            "stop" : 1624692532058,
+            "duration" : 1225
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user tap on Alert View ",
+      "time" : {
+        "start" : 1624692532058,
+        "stop" : 1624692535179,
+        "duration" : 3121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: clickOnAlertViews ",
+        "time" : {
+          "start" : 1624692532058,
+          "stop" : 1624692535179,
+          "duration" : 3121
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"Alert Views\"]\", 20",
+          "time" : {
+            "start" : 1624692532058,
+            "stop" : 1624692533271,
+            "duration" : 1213
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I tap \"//XCUIElementTypeStaticText[@name=\"Alert Views\"]\"",
+          "time" : {
+            "start" : 1624692533271,
+            "stop" : 1624692535179,
+            "duration" : 1908
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user tap on text enter alert ",
+      "time" : {
+        "start" : 1624692535179,
+        "stop" : 1624692537040,
+        "duration" : 1861
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: clickOnTextEnterAlert ",
+        "time" : {
+          "start" : 1624692535179,
+          "stop" : 1624692537040,
+          "duration" : 1861
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"Text Entry\"]\", 20",
+          "time" : {
+            "start" : 1624692535179,
+            "stop" : 1624692535729,
+            "duration" : 550
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I tap \"//XCUIElementTypeStaticText[@name=\"Text Entry\"]\"",
+          "time" : {
+            "start" : 1624692535729,
+            "stop" : 1624692537039,
+            "duration" : 1310
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And Type in it ",
+      "time" : {
+        "start" : 1624692537040,
+        "stop" : 1624692557043,
+        "duration" : 20003
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec\n                    at /Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Browser.wrapCommandFn (/Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/@wdio/utils/build/shim.js:74:23)",
+      "steps" : [ {
+        "name" : "Object: typeInAlert ",
+        "time" : {
+          "start" : 1624692537040,
+          "stop" : 1624692557043,
+          "duration" : 20003
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec\n                    at /Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Browser.wrapCommandFn (/Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/@wdio/utils/build/shim.js:74:23)",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]\", 20",
+          "time" : {
+            "start" : 1624692537040,
+            "stop" : 1624692557041,
+            "duration" : 20001
+          },
+          "status" : "failed",
+          "statusMessage" : "Error: element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec\n                    at /Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15\n                    at async Browser.wrapCommandFn (/Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/@wdio/utils/build/shim.js:74:23)",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "710ea9e136cff8de",
+      "name" : "Last Seen Screenshot",
+      "source" : "710ea9e136cff8de.png",
+      "type" : "image/png",
+      "size" : 536742
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@smoke"
+  }, {
+    "name" : "suite",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify text enter alert @smoke"
+  }, {
+    "name" : "package",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@smoke" ]
+  },
+  "source" : "d9427a4bb5dae2c7.json",
+  "parameterValues" : [ ]
+}

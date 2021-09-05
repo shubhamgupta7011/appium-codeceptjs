@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 26 12:58:26 IST 2021","Sat Jun 26 12:58:43 IST 2021","17307","","verify Catalog","","verify Catalog","verify ok and cancel alert view @smoke","verify ok and cancel alert view @smoke",""
+"failed","Sat Jun 26 12:58:44 IST 2021","Sat Jun 26 12:59:17 IST 2021","32182","","verify Catalog","","verify Catalog","verify text enter alert @smoke","verify text enter alert @smoke",""
+"passed","Sat Jun 26 12:57:56 IST 2021","Sat Jun 26 12:58:07 IST 2021","11100","","verify Catalog","","verify Catalog","verify simple Activity indicator @smoke","verify simple Activity indicator @smoke",""
+"passed","Sat Jun 26 12:58:08 IST 2021","Sat Jun 26 12:58:25 IST 2021","17034","","verify Catalog","","verify Catalog","verify simple alert view @smoke","verify simple alert view @smoke",""

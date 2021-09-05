@@ -1,0 +1,519 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624692476302' stop='1624692558864'>
+    <name>verify Catalog</name>
+    <title>verify Catalog</title>
+    <test-cases>
+        <test-case start='1624692476303' status='passed' stop='1624692487403'>
+            <name>verify simple Activity indicator @smoke</name>
+            <title>verify simple Activity indicator @smoke</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1624692481073' status='passed' stop='1624692483506'>
+                    <name>Given user is on catalog list page </name>
+                    <title>Given user is on catalog list page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692481073' status='passed' stop='1624692483506'>
+                            <name>Object: userOnCatalogPage </name>
+                            <title>Object: userOnCatalogPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692481073' status='passed' stop='1624692482286'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="UIKitCatalog"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="UIKitCatalog"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692482287' status='passed' stop='1624692483506'>
+                                    <name>I see element "//XCUIElementTypeStaticText[@name="UIKitCatalog"]"</name>
+                                    <title>I see element "//XCUIElementTypeStaticText[@name="UIKitCatalog"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692483506' status='passed' stop='1624692486699'>
+                    <name>And user tap on Activity indicator </name>
+                    <title>And user tap on Activity indicator </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692483506' status='passed' stop='1624692486699'>
+                            <name>Object: TapOnActivityIndicator </name>
+                            <title>Object: TapOnActivityIndicator </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692483506' status='passed' stop='1624692484748'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="Activity Indicators"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="Activity Indicators"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692484748' status='passed' stop='1624692486699'>
+                                    <name>I tap "//XCUIElementTypeStaticText[@name="Activity Indicators"]"</name>
+                                    <title>I tap "//XCUIElementTypeStaticText[@name="Activity Indicators"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692486699' status='passed' stop='1624692487403'>
+                    <name>Then verify Activity indicator page and loader </name>
+                    <title>Then verify Activity indicator page and loader </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692486699' status='passed' stop='1624692487403'>
+                            <name>Object: verifyActivityIndicatorPage </name>
+                            <title>Object: verifyActivityIndicatorPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692486699' status='passed' stop='1624692487062'>
+                                    <name>I wait for visible "//XCUIElementTypeNavigationBar[@name="Activity Indicators"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeNavigationBar[@name="Activity Indicators"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692487062' status='passed' stop='1624692487403'>
+                                    <name>I see element "//XCUIElementTypeNavigationBar[@name="Activity Indicators"]"</name>
+                                    <title>I see element "//XCUIElementTypeNavigationBar[@name="Activity Indicators"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1624692488443' status='passed' stop='1624692505477'>
+            <name>verify simple alert view @smoke</name>
+            <title>verify simple alert view @smoke</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1624692493177' status='passed' stop='1624692495594'>
+                    <name>Given user is on catalog list page </name>
+                    <title>Given user is on catalog list page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692493177' status='passed' stop='1624692495594'>
+                            <name>Object: userOnCatalogPage </name>
+                            <title>Object: userOnCatalogPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692493177' status='passed' stop='1624692494392'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="UIKitCatalog"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="UIKitCatalog"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692494392' status='passed' stop='1624692495593'>
+                                    <name>I see element "//XCUIElementTypeStaticText[@name="UIKitCatalog"]"</name>
+                                    <title>I see element "//XCUIElementTypeStaticText[@name="UIKitCatalog"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692495594' status='passed' stop='1624692498744'>
+                    <name>And user tap on Alert View </name>
+                    <title>And user tap on Alert View </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692495594' status='passed' stop='1624692498744'>
+                            <name>Object: clickOnAlertViews </name>
+                            <title>Object: clickOnAlertViews </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692495594' status='passed' stop='1624692496854'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="Alert Views"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="Alert Views"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692496854' status='passed' stop='1624692498744'>
+                                    <name>I tap "//XCUIElementTypeStaticText[@name="Alert Views"]"</name>
+                                    <title>I tap "//XCUIElementTypeStaticText[@name="Alert Views"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692498744' status='passed' stop='1624692500435'>
+                    <name>And user tap on Simple Alert </name>
+                    <title>And user tap on Simple Alert </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692498744' status='passed' stop='1624692500435'>
+                            <name>Object: clickOnSimple </name>
+                            <title>Object: clickOnSimple </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692498744' status='passed' stop='1624692499287'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="Simple"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="Simple"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692499287' status='passed' stop='1624692500435'>
+                                    <name>I tap "//XCUIElementTypeStaticText[@name="Simple"]"</name>
+                                    <title>I tap "//XCUIElementTypeStaticText[@name="Simple"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692500435' status='passed' stop='1624692503426'>
+                    <name>Then verify Simple Alert </name>
+                    <title>Then verify Simple Alert </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692500435' status='passed' stop='1624692503426'>
+                            <name>Object: verifyPopUp </name>
+                            <title>Object: verifyPopUp </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692500435' status='passed' stop='1624692501185'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="A Short Title Is Best"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="A Short Title Is Best"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692501186' status='passed' stop='1624692501924'>
+                                    <name>I see element "//XCUIElementTypeStaticText[@name="A Short Title Is Best"]"</name>
+                                    <title>I see element "//XCUIElementTypeStaticText[@name="A Short Title Is Best"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692501924' status='passed' stop='1624692502658'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="A message should be a short, complete sentence."]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="A message should be a short, complete sentence."]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692502659' status='passed' stop='1624692503426'>
+                                    <name>I see element "//XCUIElementTypeStaticText[@name="A message should be a short, complete sentence."]"</name>
+                                    <title>I see element "//XCUIElementTypeStaticText[@name="A message should be a short, complete sentence."]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692503426' status='passed' stop='1624692505477'>
+                    <name>And click on alert ok button </name>
+                    <title>And click on alert ok button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692503426' status='passed' stop='1624692505477'>
+                            <name>Object: clickOnOk </name>
+                            <title>Object: clickOnOk </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692503426' status='passed' stop='1624692504163'>
+                                    <name>I wait for visible "//XCUIElementTypeButton[@name="OK"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeButton[@name="OK"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692504164' status='passed' stop='1624692505477'>
+                                    <name>I tap "//XCUIElementTypeButton[@name="OK"]"</name>
+                                    <title>I tap "//XCUIElementTypeButton[@name="OK"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1624692506514' status='passed' stop='1624692523821'>
+            <name>verify ok and cancel alert view @smoke</name>
+            <title>verify ok and cancel alert view @smoke</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1624692511211' status='passed' stop='1624692513611'>
+                    <name>Given user is on catalog list page </name>
+                    <title>Given user is on catalog list page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692511211' status='passed' stop='1624692513611'>
+                            <name>Object: userOnCatalogPage </name>
+                            <title>Object: userOnCatalogPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692511211' status='passed' stop='1624692512416'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="UIKitCatalog"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="UIKitCatalog"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692512416' status='passed' stop='1624692513611'>
+                                    <name>I see element "//XCUIElementTypeStaticText[@name="UIKitCatalog"]"</name>
+                                    <title>I see element "//XCUIElementTypeStaticText[@name="UIKitCatalog"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692513611' status='passed' stop='1624692516729'>
+                    <name>And user tap on Alert View </name>
+                    <title>And user tap on Alert View </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692513611' status='passed' stop='1624692516729'>
+                            <name>Object: clickOnAlertViews </name>
+                            <title>Object: clickOnAlertViews </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692513611' status='passed' stop='1624692514831'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="Alert Views"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="Alert Views"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692514831' status='passed' stop='1624692516729'>
+                                    <name>I tap "//XCUIElementTypeStaticText[@name="Alert Views"]"</name>
+                                    <title>I tap "//XCUIElementTypeStaticText[@name="Alert Views"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692516729' status='passed' stop='1624692518456'>
+                    <name>And user tap on Okay and Cancel Alert </name>
+                    <title>And user tap on Okay and Cancel Alert </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692516729' status='passed' stop='1624692518456'>
+                            <name>Object: clickOnOkAndCancel </name>
+                            <title>Object: clickOnOkAndCancel </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692516729' status='passed' stop='1624692517284'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="Okay / Cancel"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="Okay / Cancel"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692517285' status='passed' stop='1624692518456'>
+                                    <name>I tap "//XCUIElementTypeStaticText[@name="Okay / Cancel"]"</name>
+                                    <title>I tap "//XCUIElementTypeStaticText[@name="Okay / Cancel"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692518456' status='passed' stop='1624692521745'>
+                    <name>Then verify Okay and Cancel Alert </name>
+                    <title>Then verify Okay and Cancel Alert </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692518456' status='passed' stop='1624692521745'>
+                            <name>Object: verifyOkAndCancelAlert </name>
+                            <title>Object: verifyOkAndCancelAlert </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692518456' status='passed' stop='1624692519232'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="A Short Title Is Best"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="A Short Title Is Best"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692519232' status='passed' stop='1624692520151'>
+                                    <name>I see element "//XCUIElementTypeStaticText[@name="A Short Title Is Best"]"</name>
+                                    <title>I see element "//XCUIElementTypeStaticText[@name="A Short Title Is Best"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692520151' status='passed' stop='1624692520945'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="A message should be a short, complete sentence."]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="A message should be a short, complete sentence."]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692520945' status='passed' stop='1624692521745'>
+                                    <name>I see element "//XCUIElementTypeStaticText[@name="A message should be a short, complete sentence."]"</name>
+                                    <title>I see element "//XCUIElementTypeStaticText[@name="A message should be a short, complete sentence."]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692521745' status='passed' stop='1624692523821'>
+                    <name>And click on alert ok button </name>
+                    <title>And click on alert ok button </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692521745' status='passed' stop='1624692523821'>
+                            <name>Object: clickOnOk </name>
+                            <title>Object: clickOnOk </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692521745' status='passed' stop='1624692522513'>
+                                    <name>I wait for visible "//XCUIElementTypeButton[@name="OK"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeButton[@name="OK"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692522513' status='passed' stop='1624692523820'>
+                                    <name>I tap "//XCUIElementTypeButton[@name="OK"]"</name>
+                                    <title>I tap "//XCUIElementTypeButton[@name="OK"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1624692524861' status='failed' stop='1624692557043'>
+            <name>verify text enter alert @smoke</name>
+            <title>verify text enter alert @smoke</title>
+            <labels>
+                <label name='tag' value='@smoke'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1624692529564' status='passed' stop='1624692532058'>
+                    <name>Given user is on catalog list page </name>
+                    <title>Given user is on catalog list page </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692529564' status='passed' stop='1624692532058'>
+                            <name>Object: userOnCatalogPage </name>
+                            <title>Object: userOnCatalogPage </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692529564' status='passed' stop='1624692530833'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="UIKitCatalog"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="UIKitCatalog"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692530833' status='passed' stop='1624692532058'>
+                                    <name>I see element "//XCUIElementTypeStaticText[@name="UIKitCatalog"]"</name>
+                                    <title>I see element "//XCUIElementTypeStaticText[@name="UIKitCatalog"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692532058' status='passed' stop='1624692535179'>
+                    <name>And user tap on Alert View </name>
+                    <title>And user tap on Alert View </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692532058' status='passed' stop='1624692535179'>
+                            <name>Object: clickOnAlertViews </name>
+                            <title>Object: clickOnAlertViews </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692532058' status='passed' stop='1624692533271'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="Alert Views"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="Alert Views"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692533271' status='passed' stop='1624692535179'>
+                                    <name>I tap "//XCUIElementTypeStaticText[@name="Alert Views"]"</name>
+                                    <title>I tap "//XCUIElementTypeStaticText[@name="Alert Views"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692535179' status='passed' stop='1624692537040'>
+                    <name>And user tap on text enter alert </name>
+                    <title>And user tap on text enter alert </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692535179' status='passed' stop='1624692537040'>
+                            <name>Object: clickOnTextEnterAlert </name>
+                            <title>Object: clickOnTextEnterAlert </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692535179' status='passed' stop='1624692535729'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="Text Entry"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="Text Entry"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1624692535729' status='passed' stop='1624692537039'>
+                                    <name>I tap "//XCUIElementTypeStaticText[@name="Text Entry"]"</name>
+                                    <title>I tap "//XCUIElementTypeStaticText[@name="Text Entry"]"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1624692537040' status='failed' stop='1624692557043'>
+                    <name>And Type in it </name>
+                    <title>And Type in it </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1624692537040' status='failed' stop='1624692557043'>
+                            <name>Object: typeInAlert </name>
+                            <title>Object: typeInAlert </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1624692537040' status='failed' stop='1624692557041'>
+                                    <name>I wait for visible "//XCUIElementTypeStaticText[@name="Activity Indicators"]", 20</name>
+                                    <title>I wait for visible "//XCUIElementTypeStaticText[@name="Activity Indicators"]", 20</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='baec7214-133c-4307-8822-af2bbf25dad7-attachment.png' type='image/png' size='536742'/>
+            </attachments>
+            <failure>
+                <message>element (//XCUIElementTypeStaticText[@name="Activity Indicators"]) still not visible after 20 sec</message>
+                <stack-trace>Error: element (//XCUIElementTypeStaticText[@name="Activity Indicators"]) still not visible after 20 sec
+                    at /Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/webdriverio/build/commands/browser/waitUntil.js:30:15
+                    at async Browser.wrapCommandFn (/Users/shubhamgupta/Downloads/appium-codeceptjs/node_modules/@wdio/utils/build/shim.js:74:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,389 @@
+{
+  "uid" : "d5777bf820eb6237",
+  "name" : "verify ok and cancel alert view @smoke",
+  "fullName" : "verify Catalog.verify ok and cancel alert view @smoke",
+  "historyId" : "2d55cf7b9935e2b1043b2030d2528e5b",
+  "time" : {
+    "start" : 1624692506514,
+    "stop" : 1624692523821,
+    "duration" : 17307
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on catalog list page ",
+      "time" : {
+        "start" : 1624692511211,
+        "stop" : 1624692513611,
+        "duration" : 2400
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: userOnCatalogPage ",
+        "time" : {
+          "start" : 1624692511211,
+          "stop" : 1624692513611,
+          "duration" : 2400
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"UIKitCatalog\"]\", 20",
+          "time" : {
+            "start" : 1624692511211,
+            "stop" : 1624692512416,
+            "duration" : 1205
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I see element \"//XCUIElementTypeStaticText[@name=\"UIKitCatalog\"]\"",
+          "time" : {
+            "start" : 1624692512416,
+            "stop" : 1624692513611,
+            "duration" : 1195
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user tap on Alert View ",
+      "time" : {
+        "start" : 1624692513611,
+        "stop" : 1624692516729,
+        "duration" : 3118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: clickOnAlertViews ",
+        "time" : {
+          "start" : 1624692513611,
+          "stop" : 1624692516729,
+          "duration" : 3118
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"Alert Views\"]\", 20",
+          "time" : {
+            "start" : 1624692513611,
+            "stop" : 1624692514831,
+            "duration" : 1220
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I tap \"//XCUIElementTypeStaticText[@name=\"Alert Views\"]\"",
+          "time" : {
+            "start" : 1624692514831,
+            "stop" : 1624692516729,
+            "duration" : 1898
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user tap on Okay and Cancel Alert ",
+      "time" : {
+        "start" : 1624692516729,
+        "stop" : 1624692518456,
+        "duration" : 1727
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: clickOnOkAndCancel ",
+        "time" : {
+          "start" : 1624692516729,
+          "stop" : 1624692518456,
+          "duration" : 1727
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"Okay / Cancel\"]\", 20",
+          "time" : {
+            "start" : 1624692516729,
+            "stop" : 1624692517284,
+            "duration" : 555
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I tap \"//XCUIElementTypeStaticText[@name=\"Okay / Cancel\"]\"",
+          "time" : {
+            "start" : 1624692517285,
+            "stop" : 1624692518456,
+            "duration" : 1171
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then verify Okay and Cancel Alert ",
+      "time" : {
+        "start" : 1624692518456,
+        "stop" : 1624692521745,
+        "duration" : 3289
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: verifyOkAndCancelAlert ",
+        "time" : {
+          "start" : 1624692518456,
+          "stop" : 1624692521745,
+          "duration" : 3289
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"A Short Title Is Best\"]\", 20",
+          "time" : {
+            "start" : 1624692518456,
+            "stop" : 1624692519232,
+            "duration" : 776
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I see element \"//XCUIElementTypeStaticText[@name=\"A Short Title Is Best\"]\"",
+          "time" : {
+            "start" : 1624692519232,
+            "stop" : 1624692520151,
+            "duration" : 919
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"A message should be a short, complete sentence.\"]\", 20",
+          "time" : {
+            "start" : 1624692520151,
+            "stop" : 1624692520945,
+            "duration" : 794
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I see element \"//XCUIElementTypeStaticText[@name=\"A message should be a short, complete sentence.\"]\"",
+          "time" : {
+            "start" : 1624692520945,
+            "stop" : 1624692521745,
+            "duration" : 800
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And click on alert ok button ",
+      "time" : {
+        "start" : 1624692521745,
+        "stop" : 1624692523821,
+        "duration" : 2076
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: clickOnOk ",
+        "time" : {
+          "start" : 1624692521745,
+          "stop" : 1624692523821,
+          "duration" : 2076
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeButton[@name=\"OK\"]\", 20",
+          "time" : {
+            "start" : 1624692521745,
+            "stop" : 1624692522513,
+            "duration" : 768
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I tap \"//XCUIElementTypeButton[@name=\"OK\"]\"",
+          "time" : {
+            "start" : 1624692522513,
+            "stop" : 1624692523820,
+            "duration" : 1307
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@smoke"
+  }, {
+    "name" : "suite",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify ok and cancel alert view @smoke"
+  }, {
+    "name" : "package",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@smoke" ]
+  },
+  "source" : "d5777bf820eb6237.json",
+  "parameterValues" : [ ]
+}

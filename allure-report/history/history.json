@@ -1,0 +1,79 @@
+{
+  "3c6e014efa0b2fb6fe678a331d12152b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9427a4bb5dae2c7",
+      "status" : "failed",
+      "statusDetails" : "element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec",
+      "time" : {
+        "start" : 1624692524861,
+        "stop" : 1624692557043,
+        "duration" : 32182
+      }
+    } ]
+  },
+  "2d55cf7b9935e2b1043b2030d2528e5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5777bf820eb6237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624692506514,
+        "stop" : 1624692523821,
+        "duration" : 17307
+      }
+    } ]
+  },
+  "b339e75f5c34d2e21d4c244fac00f69a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fcd65e690398976",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624692476303,
+        "stop" : 1624692487403,
+        "duration" : 11100
+      }
+    } ]
+  },
+  "34efe28412e907924b4e785b2eb975f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7787abdff21ac5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624692488443,
+        "stop" : 1624692505477,
+        "duration" : 17034
+      }
+    } ]
+  }
+}

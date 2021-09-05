@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "verify Catalog",
+    "children" : [ {
+      "name" : "verify simple Activity indicator @smoke",
+      "uid" : "3fcd65e690398976",
+      "parentUid" : "6495e119d24dc739ea31f588aa10c0e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624692476303,
+        "stop" : 1624692487403,
+        "duration" : 11100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify simple alert view @smoke",
+      "uid" : "f7787abdff21ac5d",
+      "parentUid" : "6495e119d24dc739ea31f588aa10c0e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624692488443,
+        "stop" : 1624692505477,
+        "duration" : 17034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify ok and cancel alert view @smoke",
+      "uid" : "d5777bf820eb6237",
+      "parentUid" : "6495e119d24dc739ea31f588aa10c0e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624692506514,
+        "stop" : 1624692523821,
+        "duration" : 17307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify text enter alert @smoke",
+      "uid" : "d9427a4bb5dae2c7",
+      "parentUid" : "6495e119d24dc739ea31f588aa10c0e7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624692524861,
+        "stop" : 1624692557043,
+        "duration" : 32182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6495e119d24dc739ea31f588aa10c0e7"
+  } ]
+}

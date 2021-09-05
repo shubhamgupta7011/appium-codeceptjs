@@ -1,0 +1,239 @@
+{
+  "uid" : "3fcd65e690398976",
+  "name" : "verify simple Activity indicator @smoke",
+  "fullName" : "verify Catalog.verify simple Activity indicator @smoke",
+  "historyId" : "b339e75f5c34d2e21d4c244fac00f69a",
+  "time" : {
+    "start" : 1624692476303,
+    "stop" : 1624692487403,
+    "duration" : 11100
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is on catalog list page ",
+      "time" : {
+        "start" : 1624692481073,
+        "stop" : 1624692483506,
+        "duration" : 2433
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: userOnCatalogPage ",
+        "time" : {
+          "start" : 1624692481073,
+          "stop" : 1624692483506,
+          "duration" : 2433
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"UIKitCatalog\"]\", 20",
+          "time" : {
+            "start" : 1624692481073,
+            "stop" : 1624692482286,
+            "duration" : 1213
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I see element \"//XCUIElementTypeStaticText[@name=\"UIKitCatalog\"]\"",
+          "time" : {
+            "start" : 1624692482287,
+            "stop" : 1624692483506,
+            "duration" : 1219
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And user tap on Activity indicator ",
+      "time" : {
+        "start" : 1624692483506,
+        "stop" : 1624692486699,
+        "duration" : 3193
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: TapOnActivityIndicator ",
+        "time" : {
+          "start" : 1624692483506,
+          "stop" : 1624692486699,
+          "duration" : 3193
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]\", 20",
+          "time" : {
+            "start" : 1624692483506,
+            "stop" : 1624692484748,
+            "duration" : 1242
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I tap \"//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]\"",
+          "time" : {
+            "start" : 1624692484748,
+            "stop" : 1624692486699,
+            "duration" : 1951
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then verify Activity indicator page and loader ",
+      "time" : {
+        "start" : 1624692486699,
+        "stop" : 1624692487403,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Object: verifyActivityIndicatorPage ",
+        "time" : {
+          "start" : 1624692486699,
+          "stop" : 1624692487403,
+          "duration" : 704
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "I wait for visible \"//XCUIElementTypeNavigationBar[@name=\"Activity Indicators\"]\", 20",
+          "time" : {
+            "start" : 1624692486699,
+            "stop" : 1624692487062,
+            "duration" : 363
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "I see element \"//XCUIElementTypeNavigationBar[@name=\"Activity Indicators\"]\"",
+          "time" : {
+            "start" : 1624692487062,
+            "stop" : 1624692487403,
+            "duration" : 341
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@smoke"
+  }, {
+    "name" : "suite",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "testClass",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify simple Activity indicator @smoke"
+  }, {
+    "name" : "package",
+    "value" : "verify Catalog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@smoke" ]
+  },
+  "source" : "3fcd65e690398976.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "element (//XCUIElementTypeStaticText[@name=\"Activity Indicators\"]) still not visible after 20 sec",
+      "children" : [ {
+        "name" : "verify text enter alert @smoke",
+        "uid" : "d9427a4bb5dae2c7",
+        "parentUid" : "2af3df21a74cae7780b05ce46d6db1da",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624692524861,
+          "stop" : 1624692557043,
+          "duration" : 32182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2af3df21a74cae7780b05ce46d6db1da"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
